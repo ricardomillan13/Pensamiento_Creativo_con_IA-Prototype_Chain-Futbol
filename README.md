@@ -23,13 +23,16 @@ Contenido preparado para entrega: README, código original (phase2_code.js), có
 
 ## 1) Descripción del problema
 Elegí el concepto **Prototype Chain** en JavaScript y lo combiné con el tema **Fútbol**.  
-Objetivo: modelar Person, Player y Team usando prototipos (sin usar `class`) y construir una simulación que maneje eventos asincrónicos. Se siguió además la restricción de evitar `map()` y usar callbacks en la versión inicial.
+Objetivo: modelar Person, Player y Team usando prototipos (sin usar `class`) y construir una simulación que maneje eventos asincrónicos.
+Se siguió además la restricción de evitar `map()` y usar callbacks en la versión inicial.
 
 ## 2) Fase 1 — Identificación y pensamiento divergente
 **Prompt (transcripción):**
-"Quiero practicar Prototype Chain en JS usando un tema creativo: fútbol. Dame ideas de cómo modelar Person, Player y Team con prototipos y proponme un snippet corto que use Object.create en lugar de class."
+"Quiero practicar Prototype Chain en JS usando un tema creativo: fútbol. Dame ideas de cómo modelar Person, Player
+y Team con prototipos y proponme un snippet corto que use Object.create en lugar de class."
 
-**Resultado clave:** diseño con `Person`, `Player` (hereda de Person vía `Object.create`), `Team`. Idea añadida: simulación de partido y eventos de gol con `setTimeout`.
+**Resultado clave:** diseño con `Person`, `Player` (hereda de Person vía `Object.create`), `Team`. Idea añadida:
+simulación de partido y eventos de gol con `setTimeout`.
 
 ## 3) Fase 2 — Desarrollo y desafío del sesgo (código 'prohibido')
 Se implementó la idea original de forma intencionada *no estándar*:
@@ -65,7 +68,8 @@ Incluí un diagrama SVG (`diagram.svg`) que muestra la cadena de prototipos y el
 
 
 Prompt Fase 1 (pensamiento divergente):
-Quiero practicar Prototype Chain en JavaScript usando Fútbol como tema. Dame 3 ideas creativas para modelar Person, Player y Team con prototipos (sin class), y sugiere un pequeño snippet que use Object.create y demuestre herencia.
+Quiero practicar Prototype Chain en JavaScript usando Fútbol como tema. Dame 3 ideas creativas para modelar Person, Player
+y Team con prototipos (sin class), y sugiere un pequeño snippet que use Object.create y demuestre herencia.
 
 
 Prompt Fase 2 (desafío al sesgo / restricciones):
@@ -77,7 +81,8 @@ Genera un snippet completo, con demo de ejecución.
 
 
 Prompt Fase 3 (revisión y optimización):
-Revisa el código anterior. Indica problemas de legibilidad, bugs potenciales y sugiere al menos 2 optimizaciones que mejoren eficiencia o legibilidad. Implementa los cambios y entrega el código optimizado.
+Revisa el código anterior. Indica problemas de legibilidad, bugs potenciales y sugiere al menos 2 optimizaciones
+que mejoren eficiencia o legibilidad. Implementa los cambios y entrega el código optimizado.
 
 
 Conclusión:
