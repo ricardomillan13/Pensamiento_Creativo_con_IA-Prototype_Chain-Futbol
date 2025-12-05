@@ -1,8 +1,0 @@
-Fase 1 prompt:
-"Combina el concepto Prototype Chain con fútbol para crear un snippet creativo que muestre herencia sin usar class. Hazlo divertido."
-
-Fase 2 prompt (desafío):
-"Prohíbo usar 'class', 'Object.create' y 'new'. Dame una solución usando Object.setPrototypeOf() y objetos planos para construir la Prototype Chain con jugadores de fútbol."
-
-Fase 3 prompt:
-"Evalúa el código resultante. Indica legibilidad, posibles bugs, buenas prácticas y sugiere al menos dos optimizaciones que se puedan implementar sin usar Promises ni async."
